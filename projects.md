@@ -1,3 +1,7 @@
+menu: Projects
+menu-locgroup: primary
+order: 1
+
 # Projects
 
 We have done many successful projects in the past, like *A* and *B*.

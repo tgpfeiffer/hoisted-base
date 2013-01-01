@@ -1,3 +1,7 @@
+menu: Skills
+menu-locgroup: primary
+order: 2
+
 # Skills
 
 Get an overview of our skills here, in particular *Scala* and *HTML*.

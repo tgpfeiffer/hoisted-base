@@ -23,6 +23,10 @@
     #menu li:first-child {
       border-left: 0px;
     }
+    #menu a.active {
+      color: black;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
@@ -35,7 +39,7 @@
       <h1 data-lift="site.name">Site Name</h1>
       <nav id="menu">
         <ul>
-          <li data-lift="menu.items"><a href="#">Page Title</a></li>
+          <li data-lift="xmenu?locgroup=primary"><a href="#">Page Title</a></li>
         </ul>
       </nav>
       <div class="span-8">
