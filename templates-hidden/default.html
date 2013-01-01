@@ -35,7 +35,7 @@
          and append it to the head -->
     <span data-lift="menu.title"></span> | <span data-lift="site.name">Site Name</span>
   </div>
-  <div class="container showgrid">
+  <div class="container"> <!-- try the 'showgrid' class as well -->
       <h1 data-lift="site.name">Site Name</h1>
       <nav id="menu">
         <!-- primary navigation -->
@@ -45,18 +45,18 @@
       </nav>
       <hr>
       <div id="content_container">
-        <div class="span-6 border">
+        <div class="span-18 border">
+          <div id="content">
+            <p>Input file's content will go here.</p>
+          </div>
+        </div>
+        <div class="span-6 last">
           <nav data-lift="if?extra=show_projects_nav">
             <!-- secondary navigation: only shown if show_projects_nav extra info is present -->
             <ul>
               <li data-lift="xmenu?locgroup=projects"><a href="#">Page Title</a></li>
             </ul>
-          </nav>&nbsp;
-        </div>
-        <div class="span-18 last">
-          <div id="content">
-            <p>Input file's content will go here.</p>
-          </div>
+          </nav>
         </div>
       </div>
       <hr>
