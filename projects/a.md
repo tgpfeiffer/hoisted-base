@@ -1,3 +1,8 @@
+menu: Project A
+menu-locgroup: projects
+order: 1
+show_projects_nav: true
+
 # Project A
 
 In *Project A*, we realized very interesting concepts.

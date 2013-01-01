@@ -1,6 +1,7 @@
 menu: Projects
 menu-locgroup: primary
 order: 1
+show_projects_nav: true
 
 # Projects
 
