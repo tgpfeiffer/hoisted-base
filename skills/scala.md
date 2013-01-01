@@ -1,3 +1,8 @@
+menu: Scala
+menu-locgroup: skills
+order: 1
+template: default_skills
+
 # Scala
 
 Scala is a nice programming language that's functional and object-oriented in the same time.

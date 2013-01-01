@@ -1,6 +1,7 @@
 menu: Skills
 menu-locgroup: primary
 order: 2
+template: default_skills
 
 # Skills
 

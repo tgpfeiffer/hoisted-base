@@ -1,3 +1,8 @@
+menu: HTML
+menu-locgroup: skills
+order: 2
+template: default_skills
+
 # HTML
 
 With HTML, you can do pretty websites.
