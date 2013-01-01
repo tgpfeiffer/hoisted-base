@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>The HTML5 Herald</title>
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection">
@@ -12,6 +11,11 @@
   <![endif]-->
 </head>
 <body>
+  <div data-lift="title">
+    <!-- create a title tag with the format "{menu.title} | {site.name}"
+         and append it to the head -->
+    <span data-lift="menu.title"></span> | <span data-lift="site.name">Site Name</span>
+  </div>
   <div class="container showgrid">
       <h1>Blueprint Tests: grid.css</h1>
       <div class="span-8">
