@@ -9,6 +9,21 @@
   <!--[if lt IE 8]>
     <link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection">
   <![endif]-->
+  <style type="text/css">
+    #menu ul {
+      padding-left: 0px;
+      list-style-type: none;
+    }
+    #menu li {
+      display: inline-block;
+      padding: 0 25px;
+      font-weight: bold;
+      border-left: 2px solid black;
+    }
+    #menu li:first-child {
+      border-left: 0px;
+    }
+  </style>
 </head>
 <body>
   <div data-lift="title">
@@ -17,7 +32,12 @@
     <span data-lift="menu.title"></span> | <span data-lift="site.name">Site Name</span>
   </div>
   <div class="container showgrid">
-      <h1>Blueprint Tests: grid.css</h1>
+      <h1 data-lift="site.name">Site Name</h1>
+      <nav id="menu">
+        <ul>
+          <li data-lift="menu.items"><a href="#">Page Title</a></li>
+        </ul>
+      </nav>
       <div class="span-8">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       </div>
